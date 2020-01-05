@@ -1,0 +1,9 @@
+vaang@DESKTOP-1OJAPA9 MINGW64 ~/Desktop
+
+connecting to ec2 instance 
+	$ ssh -i 'C:/Users/vaang/.ssh/MyKeyPair.pem' ec2-user@public IP
+
+transfer/copy file to current folder
+	$ scp -i 'C:/Users/vaang/.ssh/MyKeyPair.pem' ec2-user@ IP:/path2file .
+
+
